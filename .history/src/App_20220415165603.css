@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fed7aa;
+    overflow: hidden;
+    padding: 4rem;
+}
+
+.app .app-container {
+    width: 500px;
+    margin: 0 auto;
+}
+.app .app-container .searchBar {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffedd5;
+}
+.app .app-container .searchBar .searchBar-container {
+    padding: 1rem 2rem;
+    background-color: #ffedd5;
+}
+.app .app-container .searchBar .searchBar-container .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app .app-container .searchBar .searchBar-container .search input {
+    display: flex;
+    width: 200px;
+    padding: 0.2rem;
+}
+
+.app .app-container .searchBar .searchBar-container .search button {
+    border: none;
+    background-color: #fb923c;
+    padding: 0.4rem;
+}

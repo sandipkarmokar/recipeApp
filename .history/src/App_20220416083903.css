@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fed7aa;
+    overflow: hidden;
+    padding: 4rem 0;
+}
+
+.app .app-container {
+    width: 600px;
+    margin: 0 auto;
+}
+.app .app-container .searchBar {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffedd5;
+}
+.app .app-container .searchBar .searchBar-container {
+    padding: 1rem 2rem;
+    background-color: #ffedd5;
+}
+.app .app-container .searchBar .searchBar-container .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app .app-container .searchBar .searchBar-container .search input {
+    display: flex;
+    width: 200px;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+}
+
+.app .app-container .searchBar .searchBar-container .search button {
+    border: none;
+    background-color: #fb923c;
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+.app .app-container .searchBar .searchBar-container .search button:hover {
+    background-color: #f97316;
+}
+
+.app .app-container .app-modal {
+    width: 90%;
+    margin: 1rem auto;
+    background-color: #fafafa;
+    padding: 1rem;
+    display: flex;
+}
+
+.app .app-container .app-modal .recipeList {
+    border: 1px solid #333;
+    width: 40%;
+}
+.app .app-container .app-modal .recipeList .recipeList-container {
+    padding: 0.5rem;
+}
+.app .app-container .app-modal .recipeList .recipeList-container .recipe-item {
+    border: 1px solid #333;
+}
+.app
+    .app-container
+    .app-modal
+    .recipeList
+    .recipeList-container
+    .recipe-item
+    img {
+    height: 30px;
+    width: 50px;
+}
